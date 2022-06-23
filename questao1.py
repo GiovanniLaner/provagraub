@@ -80,3 +80,9 @@ else:
     cont = cont + 1
 
 print('Sua nota foi:', cont,'/',10)
+
+for i in range(0,10): # o i vai variar de 0 a 9
+  if respostasDoAluno[i] == gabarito[i]:
+    print('Questão', i,' está correta!')
+  else:
+    print('Questão', i,' não está correta. A resposta correta é ', gabarito[i])
